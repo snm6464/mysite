@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        
+        <meta name="viewport" content = "width=device-width, initial-scale=1"/>
+       
+        <title>oscilloscope</title>
+       
+        <link rel="stylesheet" type="text/css" href="../style/osc_style.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=vital_signs" />
+
+        </head>
+    <body>
+        
+        
+        
+        <div class="wrapper">
+
+
+            <div class="back">
+                <a href="./projects.html" title="back to projects">
+                    <div class="internal-img" > 
+                        <img src="../assets/gen/back_button.png" alt="back button drawn with oil pastels">
+                    </div>
+                </a>
+            </div>
+            
+            
+                <div class="title">
+                    <div class="internal-img">
+                        <img src="../assets/osc/osc_title.png">
+                    </div>
+                    
+                </div>
+                <div class="date">
+                    <div class="internal-img">
+                        <img src="../assets/gen/fall_24.png">
+                    </div>
+                </div>
+            
+                <div class="main-wrapper"> 
+                   
+                <div class="sketch">
+                    <h2 class="the-idea">
+                        <span style="font-size:75%;color:black;">★</span>
+                        
+                        the idea
+
+                        <span style="font-size:75%;color:black;">★</span>
+
+                    </h2>
+                    <div class="idea-list">
+                    <ul>
+                        <li> a digital oscilloscope</li>
+                        <li> connect 4 astable multivibrator oscillators (ASMVs) </li>
+                        <li> mix all 4 into one signal </li>
+                        <li> create a visualization on <a href="https://editor.p5js.org/snm6464/sketches/cdPxbQRRa">p5.js</a> </li> 
+                      
+                    </ul>
+                </div>
+                   <h2>
+                    <span style="font-size:75%;color:black;">★</span>
+                    sketches
+                    <span style="font-size:75%;color:black;">★</span>
+                   </h2>
+                   <div class="drawing-wrapper">
+                    <div class="internal-img sketch-one">
+                        <img src="../assets/osc/osc_flowchart.png">
+                        
+                    </div>
+                    <div class="internal-img sketch-two">
+                        <img src="../assets/osc/osc_schematic.png">
+                        
+                    </div>
+                    <div class="internal-img sketch-three">
+                        <img src="../assets/osc/osc_schematic_2.png">
+                        
+                    </div>
+
+                   </div>
+                    
+                    
+                </div>
+
+                <div class="process">
+                    <div class="process-one">
+                    <h2>
+                        <span style="font-size:75%;color:black;">★</span>
+                        the process
+                        <span style="font-size:75%;color:black;">★</span> 
+                    </h2>
+                    <ol>
+                        <li>created 4 ASMVs</li>
+                        <li>wired each ASMV to one row on the breadboard</li>
+                        <li>experimented with resistors to vary the signal coming from each</li>
+                        <li>decided to use potentiometers to mix</li>
+                        <li>wired to one analog pin on an Adafruit Metro</li>
+                        <li>created code to read the data coming in</li>
+                        <li>plotted points on p5.js</li>
+
+                    </ol>
+                </div>
+                <div class="process-two">
+
+                
+                    <h2>
+                        <span style="font-size:75%;color:black;">★</span>
+                        taking it further
+                        <span style="font-size:75%;color:black;">★</span>
+                    </h2>
+                    <ul>
+                        <li>i wanted a more physical representation of this data - what does it mean?</li>
+                        <li>i drew inspiration from vibrating plates with sand on top</li>
+                        <li>i hooked up a transducer and attached it to a plate</li>
+                        <li>i poured salt on top and observed its behavior</li>
+                    </ul>
+                </div>
+                </div>
+
+                <div class="final product">
+                    <h2>
+                        <span style="font-size:75%;color:black;">★</span>
+                        final product
+                        <span style="font-size:75%;color:black;">★</span>
+                    </h2>
+                    <div class="product-wrapper">
+                        <div class="internal-img product-one">
+                            <img src="../assets/osc/amp.jpeg" alt="An amplifier connected to my circuit">
+                        </div>
+                        <div class="internal-img product-two">
+                            <img src="../assets/osc/circuit.jpeg" alt="4 astable multivibrator oscillators mixed together">
+                        </div>
+                        <div class="internal-img product-three">
+                            <img src="../assets/osc/plate.jpeg" alt="a glass plate attached to a transducer">
+                        </div>
+                        <div class="internal-img product-four">
+                            <img src="../assets/osc/osc_screenshot.png" alt="a screenshot of my working oscilloscope - signals are green, pink, and blue">
+                        </div>
+                
+                    </div>
+                </div>
+
+                <div class="reflections">
+                    <h2>
+                        <span style="font-size:75%;color:black;">★</span>
+                        reflections
+                        <span style="font-size:75%;color:black;">★</span>
+                    </h2>
+                    <p>
+                        The salt's movement on the plate did not work the way I thought it would.
+                        However, I still thoroughly enjoyed the process of this project. 
+                        The oscilloscope itself turned out beautifully, and I really enjoyed being able to mix and hear the transducer change pitch with each new frequency.
+                        If I had more time, I would have done more research on how to make formations with vibrations, and tweaked the oscillators from there.
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="to-top">
+                <a href="" title="back to top">
+                    <div class="internal-img up">
+                        <img src="../assets/gen/up_button.png" alt="up button drawn with oil pastels">
+                    </div>
+                </a>
+                <p>
+                    back to top
+                </p>
+            </div>
+        </div>
+        
+    </body>
+</html>

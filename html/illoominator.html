@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        
+        <meta name="viewport" content = "width=device-width, initial-scale=1"/>
+       
+        <title>illoominator</title>
+
+        <!-- NOTE: relink style sheet + keep google fonts -->
+       
+        <link rel="stylesheet" type="text/css" href="../style/loom_style.css" /> 
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=vital_signs" />
+
+        </head>
+    <body>
+        
+        
+        
+        <div class="wrapper">
+
+            <!-- NOTE: keep back button -->
+            <div class="back">
+                <a href="./projects.html" title="back to projects">
+                    <div class="internal-img" > 
+                        <img src="../assets/gen/back_button.png" alt="back button drawn with oil pastels">
+                    </div>
+                </a>
+            </div>
+            
+            
+                <div class="title">
+                    <div class="internal-img">
+                        
+                        <img src="../assets/loom/loom_title.png" alt="title 'illoominator' made with cutout letters from magazines">
+                    </div>
+                    
+                </div>
+                <div class="date">
+                    <div class="internal-img">
+                    
+                        <img src="../assets/gen/fall_24.png" alt="date 'fall 24' made with cutout letters from magazines">
+                    </div>
+                </div>
+            
+                <div class="main-wrapper"> 
+                   
+                <div class="sketch">
+                    <h2 class="the-idea">
+                        <span style="font-size:75%;color:black;">★</span>
+                        
+                        the idea
+
+                        <span style="font-size:75%;color:black;">★</span>
+
+                    </h2>
+                    <div class="idea-list">
+                    <ul>
+                       <li> a programmable loom piece inspired by the Jacquard Loom</li>
+                       <li> 8 strings of lights (neopixels) attached to light sensors that signal on/off and blinking/not blinking</li>
+                       <li> a box to cover the photocells & punchcard sheets to go on top (to program)</li>
+                       <li> a user can program the lights with their own punchcard</li>
+                       <li> the lights fall under a handwoven piece that's framed on a hand loom</li>
+                      
+                    </ul>
+                </div>
+                   <h2>
+                    <!-- NOTE: obv can add more/take away sketches -->
+                    <span style="font-size:75%;color:black;">★</span>
+                    sketches
+                    <span style="font-size:75%;color:black;">★</span>
+                   </h2>
+                   <div class="drawing-wrapper">
+                    <div class="internal-img sketch-one">
+                        <img src="../assets/loom/sketch_one.png">
+                        
+                    </div>
+                    <div class="internal-img sketch-two">
+                        <img src="../assets/loom/sketch_two.png">
+                        
+                    </div>
+                    <div class="internal-img sketch-three">
+                        <img src="../assets/loom/sketch_three.png">
+                        
+                    </div>
+
+                   </div>
+                    
+                    
+                </div>
+                <!-- NOTE: add process photos? -->
+                <div class="process">
+                    <div class="process-one">
+                    <h2>
+                        <span style="font-size:75%;color:black;">★</span>
+                        the process
+                        <span style="font-size:75%;color:black;">★</span> 
+                    </h2>
+                    <ol>
+                        <li> wove the piece with secondhand yarns</li>
+                        <li> attempted to assemble lights with conductive thread + wire</li>
+                        <li> faced challenges with this design - often shorting the circuits</li>
+                        <li> created light strings with solidcore wire</li>
+                        <li> fastened the strings on to the woven piece</li>
+                        <li> assembled a grid of photocells that fed into a multiplexer</li>
+                        <li> programmed the lights to change hue and brightness based on the photocells
+                        </li>
+
+                    </ol>
+                </div>
+                <div class="process-two">
+                    <!-- NOTE: put images here -->
+                
+                    <h2>
+                        <span style="font-size:75%;color:black;">★</span>
+                        adjustments
+                        <span style="font-size:75%;color:black;">★</span>
+                    </h2>
+                    <ul>
+                        <li>original sewn circuits shorted many times</li>
+                       <li>changes were made to what kinds of wire i used</li>
+                       <li>photocell values were very volatile - made it hard to read an on/off</li>
+                       <li>changes in environment also changed the photocell values</li>
+                       <li>mapped the values to hue and brightness instead of on and blinking</li>
+                    </ul>
+                </div>
+                </div>
+
+                <div class="final product">
+                    <h2>
+                        <span style="font-size:75%;color:black;">★</span>
+                        final product
+                        <span style="font-size:75%;color:black;">★</span>
+                    </h2>
+                    <div class="product-wrapper">
+                        <div class="internal-img product-one">
+                            <img src="../assets/loom/product_one.png" alt="the illoominator piece lit up in its display">
+                        </div>
+                        <div class="internal-img product-two">
+                            <img src="../assets/loom/product_two.png" alt="the loom piece pictured next to a computer">
+                        </div>
+                        <div class="internal-img product-three">
+                            <img src="../assets/loom/product_three.png" alt="the woven loom piece without lights attached">
+                        </div>
+                        <div class="internal-img product-four">
+                            <img src="../assets/loom/product_four.png" alt="the loom circuit">
+                        </div>
+                
+                    </div>
+                </div>
+
+                <div class="reflections">
+                    <h2>
+                        <span style="font-size:75%;color:black;">★</span>
+                        reflections
+                        <span style="font-size:75%;color:black;">★</span>
+                    </h2>
+                    <p>
+                        I initially intended to make a Jacquard loom inspired art piece in which users could place “punch cards” on top of a series of photocells to control lights on a loom. Each row of photocells would control whether or not the lights were on or off, blinking or not blinking. I intended to sew lines of lights into the piece using conductive thread. As I created the project, I ran into a few issues; my first issue was that I repeatedly shorted my light circuits by accidentally crossing the power and ground threads. Not only did I lose hours of work from sewing in the lights, I also lost quite a few neopixels to burnout. My second challenge was with the photocells; they are quite finicky and it was virtually impossible to develop a working formula that could determine on versus off. My solution to these problems were to use solidcore wire, solder it to the lights, and attach the strips to the back of the piece where they would shine through. It ended up being a much more sturdy and safe solution. While it was a bit more messy in the back, I am happy with my solution and I have to say it might look better than it would have with the lights in front of the piece. For my photocell issue, I decided to make the experience a bit more interesting and instead map the values of each photocell to the brightness and color scheme of the trips. I also think that this solution looks and feels a lot more interesting than the initial idea I had. If I could do things differently, I would have prepared more for running into these issues and possibly done things to prevent them, like using different sensors or insulating the conductive thread better (however, the medium kind of prevents an efficient and effective use of conductive thread. I also think, if I had more time, I’d want to work on packaging up the interactive aspect a bit more into an even more fun form of interaction, like more movement or something. Even though the idea is different from what I initially envisioned, I still think this project is successful and I am very happy with the result!
+                    </p>
+                    
+                </div>
+            </div>
+
+        <!-- NOTE: keep to top button -->
+            <div class="to-top">
+                <a href="" title="back to top">
+                    <div class="internal-img up">
+                        <img src="../assets/gen/up_button.png" alt="up button drawn with oil pastels">
+                    </div>
+                </a>
+                <p>
+                    back to top
+                </p>
+            </div>
+        </div>
+        
+    </body>
+</html>

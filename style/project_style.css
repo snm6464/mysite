@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap');
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+body {
+    
+    background-position: center top;
+    background-size: 75vw;
+    
+    
+}
+
+
+
+.wrapper {
+    background: url(../assets/gen/vert_rep.png);
+    background-repeat: repeat;
+    background-position: center top;
+    background-size: 100vw;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.back-wrapper {
+    width: 100%;
+}
+
+.back {
+    width: 15%;
+    left: 0;
+    top:0;
+}
+
+.title {
+    width: 75%;
+    margin-left: 15%;
+    
+}
+.title .internal-img {
+    width: 100%;
+    height: auto;
+}
+
+.item-wrapper {
+    width: 100%;
+}
+
+.item {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    align-items: center;
+    
+}
+
+.item a {
+    width: 75%;
+}
+
+
+
+
+.internal-img {
+    width: 100%;
+}
+
+.internal-img img {
+    width: 100%;
+}
+
+a .internal-img img:hover {
+    filter: drop-shadow(.5rem .5rem .5rem rgba(0,0,0,.5));
+}
+
+h1 {
+    font-family: "Darumadrop One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+/* MOBILE */
+@media screen and (max-width:768px) {
+    .wrapper {
+        background-image: url(../assets/gen/vert_notebook.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .back {
+        
+        left: 0;
+        top:0;
+    }
+    
+    .item{
+        &.back {
+            margin-left: 0;
+            width: 30%;
+        }
+
+    }
+
+    .title {
+        width: 100%;
+        margin-left: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .title .internal-img {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .item {
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 10%;
+        align-items: center;
+
+        &.dress{
+            margin-bottom: 2vh;
+        }
+
+        &.osc{
+            margin-bottom: 2vh;
+        }
+
+        &.loom{
+            margin-bottom: 2vh;
+        }
+
+
+        &.heart{
+            margin-bottom: 2vh;
+        }
+
+        
+
+        
+    }
+
+    .item a {
+        width: 80%;
+    }
+
+    h1 {
+        font-family: "Darumadrop One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.5rem;
+    }
+    
+
+
+}
